@@ -1,0 +1,4 @@
+import os
+import glob
+
+Program('test', glob.glob('*.cpp'), CPPPATH = [], LIBPATH = [], LIBS = [], CCFLAGS = [])
